@@ -4,17 +4,34 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Audiophile</title>
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="/css/main.css">
-   </head>
+   <%- include('./partials/head.ejs') %> 
    <body>
+      <nav class="navbar-content container">
+         <div class="navbar-logo">
+            <a href="#"><h1>Audiophile</h1></a>
+         </div>
+         <div class="navbar-links">
+            <ul class="navbar-links">
+               <li class="links">
+                  <a class="link" href="#">Home</a>
+               </li>
+               <li class="links">
+                  <a class="link" href="#">Headphones</a>
+               </li>
+               <li class="links">
+                  <a class="link" href="#">Speakers</a>
+               </li>
+               <li class="links">
+                  <a class="link" href="#">Earphones</a>
+               </li>
+            </ul>
+         </div>
+         <div class="navbar-shopping-cart">
+            <a href="#"><img src="/public/img/cart/image-xx59-headphones.jpg" alt="Shopping Cart"></a>
+            <img src="/public/img/favicon-32x32.png" alt="Hello">
+         </div>
+      </nav>
      
-      <h1>Hello World!</h1>
       
    </body>
 </html>
