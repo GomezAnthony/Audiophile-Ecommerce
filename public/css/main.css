@@ -7,6 +7,75 @@
   list-style: none;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
+  font-size: 1.6rem;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  margin-inline: auto;
+  width: min(95%, 110rem);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 0.9em;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+.navbar-content {
+  background-color: #191919;
+  height: 9rem;
+}
+.navbar-content .navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+}
+.navbar-content .navbar-links {
+  width: 450px;
+}
+.navbar-content .navbar-links .navbar-link-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar-content .navbar-links .navbar-link-list .link {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.navbar-content .navbar-links .navbar-link-list .link:hover {
+  cursor: pointer;
+  color: #d87d4a;
+  transition: all 400ms ease;
 }

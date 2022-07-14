@@ -18,6 +18,10 @@ app.get('/', (req, res) => {
    res.render('index')
 })
 
+app.get('/headphones', (req, res) => {
+   res.render('headphones')
+})
+
 
 //  Listen on port 5000
 app.listen(PORT, () => {

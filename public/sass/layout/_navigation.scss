@@ -1,0 +1,31 @@
+.navbar-content {
+   background-color: $primary-color;
+   height: 9rem;
+
+   .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 9rem;
+   }
+
+   .navbar-links {
+      width: 450px;
+      .navbar-link-list {
+         display: flex;
+         justify-content: space-evenly;
+
+         .link {
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            color: $secondary-color;
+
+            &:hover {
+               cursor: pointer;
+               color: $btn-links;
+               transition: $transitions;
+            }
+         } 
+      }
+   }
+}
