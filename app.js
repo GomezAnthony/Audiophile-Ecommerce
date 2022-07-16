@@ -22,6 +22,14 @@ app.get('/headphones', (req, res) => {
    res.render('headphones')
 })
 
+app.get('/speakers', (req, res) => {
+   res.render('speakers')
+})
+
+app.get('/earphones', (req, res) => {
+   res.render('earphones')
+})
+
 
 //  Listen on port 5000
 app.listen(PORT, () => {
