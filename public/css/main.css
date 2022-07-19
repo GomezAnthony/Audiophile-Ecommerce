@@ -52,6 +52,12 @@ section {
   padding: 5rem 0;
 }
 
+.hero {
+  background-color: #191919;
+  height: 600px;
+  background: url("/img/home/desktop/image-hero.jpg");
+}
+
 .navbar-content {
   background-color: #191919;
   height: 9rem;
