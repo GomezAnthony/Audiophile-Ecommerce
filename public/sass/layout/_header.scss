@@ -1,7 +1,25 @@
 .hero {
-   background-color: $primary-color;
    height: 600px;
-   background: url('/img/home/desktop/image-hero.jpg');
-   
+   background-color: $primary-color;
 
+   .hero-container {
+      text-align: left;
+      padding: 17rem 0;
+      .hero-type-product {
+         font-size: 1.2rem;
+         color: $font-color-1;
+         font-weight: $medium-font;
+         letter-spacing: 0.8rem;
+         text-transform: uppercase;
+         display: block;
+         font-size: 1.5rem;
+      }
+      .hero-title {
+         color: #fff;
+         font-size: 5.6rem;
+         letter-spacing: 0.0806rem;
+         width: 40rem;
+         text-transform: uppercase;
+      }
+   }
 }

@@ -28,22 +28,6 @@ p {
   margin-bottom: 0.9em;
 }
 
-h1 {
-  font-size: 4.5rem;
-}
-
-h2 {
-  font-size: 3rem;
-}
-
-h3 {
-  font-size: 2.5rem;
-}
-
-h4 {
-  font-size: 2rem;
-}
-
 a {
   text-decoration: none;
 }
@@ -53,34 +37,54 @@ section {
 }
 
 .hero {
-  background-color: #191919;
   height: 600px;
-  background: url("/img/home/desktop/image-hero.jpg");
+  background-color: #191919;
+}
+.hero .hero-container {
+  text-align: left;
+  padding: 17rem 0;
+}
+.hero .hero-container .hero-type-product {
+  font-size: 1.2rem;
+  color: #8c8c8c;
+  font-weight: 500;
+  letter-spacing: 0.8rem;
+  text-transform: uppercase;
+  display: block;
+  font-size: 1.5rem;
+}
+.hero .hero-container .hero-title {
+  color: #fff;
+  font-size: 5.6rem;
+  letter-spacing: 0.0806rem;
+  width: 40rem;
+  text-transform: uppercase;
 }
 
 .navbar-content {
   background-color: #191919;
   height: 9rem;
+  display: flex;
+  align-content: center;
+  align-items: center;
 }
 .navbar-content .navbar-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 9rem;
 }
-.navbar-content .navbar-links {
+.navbar-content .navbar-container .navbar-links {
   width: 450px;
 }
-.navbar-content .navbar-links .navbar-link-list {
+.navbar-content .navbar-container .navbar-links .navbar-link-list {
   display: flex;
   justify-content: space-evenly;
 }
-.navbar-content .navbar-links .navbar-link-list .link {
+.navbar-content .navbar-container .navbar-links .navbar-link-list .link {
   font-size: 1.4rem;
   text-transform: uppercase;
   color: #fff;
 }
-.navbar-content .navbar-links .navbar-link-list .link:hover {
+.navbar-content .navbar-container .navbar-links .navbar-link-list .link:hover {
   cursor: pointer;
   color: #d87d4a;
   transition: all 400ms ease;
