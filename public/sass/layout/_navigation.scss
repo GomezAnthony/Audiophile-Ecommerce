@@ -1,24 +1,22 @@
 .navbar-content {
    background-color: $primary-color;
-   height: 9rem;
-   display: flex;
-   align-content: center;
-   align-items: center;
+   padding: 3.2rem 0;
 
    .navbar-container {
       display: flex;
       justify-content: space-between;
-      
-
+      padding-bottom: 26px;
+      border-bottom: 0.628px rgba(255, 255, 255, 0.14) solid;
       .navbar-links {
          width: 450px;
          .navbar-link-list {
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
    
             .link {
                font-size: 1.4rem;
                text-transform: uppercase;
+               letter-spacing: 0.125em;
                color: $secondary-color;
    
                &:hover {

@@ -1,25 +1,42 @@
 .hero {
-   height: 600px;
    background-color: $primary-color;
-
    .hero-container {
       text-align: left;
-      padding: 17rem 0;
+      padding: 12rem 0;
+      background: url('/img/home/desktop/image-hero.jpg');
+      background-size: contain;
       .hero-type-product {
-         font-size: 1.2rem;
          color: $font-color-1;
-         font-weight: $medium-font;
-         letter-spacing: 0.8rem;
+         font-weight: $regular-font;
+         letter-spacing: 1rem;
          text-transform: uppercase;
+         margin-bottom: 1.1rem;
          display: block;
-         font-size: 1.5rem;
+         font-size: 1.4rem;
       }
       .hero-title {
          color: #fff;
+         line-height: 1.1;
          font-size: 5.6rem;
-         letter-spacing: 0.0806rem;
-         width: 40rem;
+         font-weight: $bold;
+         letter-spacing: 1.2896px;
+         max-width: 50rem;
          text-transform: uppercase;
+         margin-bottom: 2.5rem;
+      }
+      .hero-text {
+         line-height: 1.7;
+         color: $font-color-1;
+         font-size: 1.5rem;
+         max-width: 35rem;
+         font-weight: $extra-light-font;
+         margin-bottom: 4rem;
+      }
+      .hero-btn {
+         background-color: $btn-links;
+         color: $secondary-color;
+         letter-spacing: 0.15rem;
+         font-size: 1.2rem;
       }
    }
 }

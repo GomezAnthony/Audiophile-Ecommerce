@@ -4,12 +4,15 @@ $secondary-color: #fff;
 $btn-links: #d87d4a;
 
 // Font Colors
-$font-color-1: #8c8c8c;
+$font-color-1: rgb(255, 255, 255, 0.5);
 
 // Font Family
-$primary-font: 'Manrope', sans-serif;
+$primary-font: 'Manrope', serif;
 
 // Font Weights
+$extra-light-font: 200;
+$light-font: 300;
+$regular-font: 400;
 $medium-font: 500;
 $semi-bold: 600;
 $bold: 700;
