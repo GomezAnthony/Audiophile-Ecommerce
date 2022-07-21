@@ -26,7 +26,7 @@ a {
 }
 
 section {
-  padding: 5rem 0;
+  padding: 19rem 0;
 }
 
 .btn {
@@ -34,6 +34,24 @@ section {
   border: none;
   padding: 15px;
   text-transform: uppercase;
+}
+
+.product-categories-container {
+  display: grid;
+  grid-template-columns: repeat(3, 353px);
+  grid-template-rows: repeat(1, 200px);
+  grid-gap: 30px 30px;
+}
+.product-categories-container .card {
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  border-radius: 10px;
+}
+.product-categories-container .product-image {
+  height: 200px;
 }
 
 .hero {
@@ -44,6 +62,7 @@ section {
   height: 63.8rem;
   background: rgb(25, 25, 25) none repeat scroll 0% 0%;
   z-index: 1;
+  margin-bottom: 3rem;
 }
 .hero .hero-container {
   max-width: 1110px;
@@ -142,4 +161,11 @@ section {
   cursor: pointer;
   color: #d87d4a;
   transition: all 400ms ease;
+}
+
+.product-categories .product-categories-container .headphones-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
