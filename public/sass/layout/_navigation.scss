@@ -1,30 +1,40 @@
 .navbar-content {
-   background-color: $primary-color;
-   padding: 3.2rem 0;
+   background-color: $primary-color;  
 
+   
    .navbar-container {
+      height: 9rem;
       display: flex;
       justify-content: space-between;
-      padding-bottom: 26px;
+      align-items: center;
       border-bottom: 0.628px rgba(255, 255, 255, 0.14) solid;
+
+      .navbar-logo {
+         padding-top: 0.5rem;
+      }
+
       .navbar-links {
          width: 450px;
+
          .navbar-link-list {
+            width: 450px;
             display: flex;
             justify-content: space-between;
-   
+
             .link {
+               color: $secondary-color;
                font-size: 1.4rem;
                text-transform: uppercase;
-               letter-spacing: 0.125em;
-               color: $secondary-color;
-   
-               &:hover {
+               letter-spacing: 1.75px;
+               font-weight: $medium-font;
+               opacity: .75;
+
+                &:hover {
                   cursor: pointer;
                   color: $btn-links;
                   transition: $transitions;
-               }
-            } 
+                }
+            }
          }
       }
    }

@@ -37,70 +37,106 @@ section {
 }
 
 .hero {
-  background-color: #191919;
+  display: flex;
+  -moz-box-pack: center;
+  justify-content: center;
+  padding: 0px 2.4rem;
+  height: 63.8rem;
+  background: rgb(25, 25, 25) none repeat scroll 0% 0%;
+  z-index: 1;
 }
 .hero .hero-container {
-  text-align: left;
-  padding: 12rem 0;
-  background: url("/img/home/desktop/image-hero.jpg");
-  background-size: contain;
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  position: relative;
 }
-.hero .hero-container .hero-type-product {
+.hero .hero-container .hero-content {
+  display: flex;
+  flex-direction: column;
+  -moz-box-pack: center;
+  justify-content: center;
+  max-width: 39.8rem;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background: transparent none repeat scroll 0% 0%;
+  z-index: 2;
+}
+.hero .hero-container .hero-content .hero-type-product {
+  font-size: 1.4rem;
   color: rgba(255, 255, 255, 0.5);
-  font-weight: 400;
   letter-spacing: 1rem;
   text-transform: uppercase;
-  margin-bottom: 1.1rem;
-  display: block;
-  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
 }
-.hero .hero-container .hero-title {
+.hero .hero-container .hero-content .hero-title {
+  font-size: 6rem;
   color: #fff;
-  line-height: 1.1;
-  font-size: 5.6rem;
-  font-weight: 700;
-  letter-spacing: 1.2896px;
-  max-width: 50rem;
   text-transform: uppercase;
-  margin-bottom: 2.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  line-height: 56px;
+  margin-bottom: 3rem;
 }
-.hero .hero-container .hero-text {
-  line-height: 1.7;
-  color: rgba(255, 255, 255, 0.5);
+.hero .hero-container .hero-content .hero-text {
   font-size: 1.5rem;
-  max-width: 35rem;
-  font-weight: 200;
-  margin-bottom: 4rem;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  opacity: 0.75;
+  margin: 3.2rem 0;
 }
-.hero .hero-container .hero-btn {
+.hero .hero-container .hero-content .hero-btn {
   background-color: #d87d4a;
   color: #fff;
-  letter-spacing: 0.15rem;
-  font-size: 1.2rem;
+}
+.hero .hero-container .hero-image {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  margin-top: 0.9rem;
+  max-width: 111rem;
+  min-width: 90rem;
+  width: 100%;
+  min-height: 58rem;
+  background: url("/img/home/desktop/image-hero.jpg");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: 54% center;
+  background-position-x: 54%;
+  background-position-y: center;
+  opacity: 1;
 }
 
 .navbar-content {
   background-color: #191919;
-  padding: 3.2rem 0;
 }
 .navbar-content .navbar-container {
+  height: 9rem;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 26px;
+  align-items: center;
   border-bottom: 0.628px rgba(255, 255, 255, 0.14) solid;
+}
+.navbar-content .navbar-container .navbar-logo {
+  padding-top: 0.5rem;
 }
 .navbar-content .navbar-container .navbar-links {
   width: 450px;
 }
 .navbar-content .navbar-container .navbar-links .navbar-link-list {
+  width: 450px;
   display: flex;
   justify-content: space-between;
 }
 .navbar-content .navbar-container .navbar-links .navbar-link-list .link {
+  color: #fff;
   font-size: 1.4rem;
   text-transform: uppercase;
-  letter-spacing: 0.125em;
-  color: #fff;
+  letter-spacing: 1.75px;
+  font-weight: 500;
+  opacity: 0.75;
 }
 .navbar-content .navbar-container .navbar-links .navbar-link-list .link:hover {
   cursor: pointer;
