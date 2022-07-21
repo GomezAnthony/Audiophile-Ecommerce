@@ -1,0 +1,108 @@
+.product-categories {
+   .product-categories-container {
+      .headphones-category-card {
+         .headphones-title {
+            font-size: 1.8rem;
+            font-weight: $bold;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+         }
+   
+         .headphone-links {
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+            padding: 1.9rem, 0;
+            padding: 1.6rem 0rem;
+   
+            .headphone-link {
+               font-size: 1.4rem;
+               text-transform: uppercase;
+               color: $font-color-2;
+               font-weight: $semi-bold;
+               letter-spacing: 1px;
+               padding: 0 10px;
+            }
+         }
+
+         &:hover {
+            cursor: pointer;
+            .headphone-link {
+               transition: $transitions;
+               color: $btn-links;
+            }
+         }
+
+      }
+      
+      .speakers-category-card {
+         .speakers-title {
+            font-size: 1.8rem;
+            font-weight: $bold;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+         }
+         .speaker-links {
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+            padding: 1.9rem, 0;
+            padding: 1.6rem 0rem;
+   
+            .speaker-link {
+               font-size: 1.4rem;
+               text-transform: uppercase;
+               color: $font-color-2;
+               font-weight: $semi-bold;
+               letter-spacing: 1px;
+               padding: 0 10px;
+            }
+         }
+
+         &:hover {
+            cursor: pointer;
+            .speaker-link {
+               color: $btn-links;
+               transition: $transitions;
+            }
+         }
+      }
+
+      .earphones-category-card {
+         .earphones-title {
+            font-size: 1.8rem;
+            font-weight: $bold;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+         }
+         .earphone-links {
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+            padding: 1.9rem, 0;
+            padding: 1.6rem 0rem;
+   
+            .earphone-link {
+               font-size: 1.4rem;
+               text-transform: uppercase;
+               color: $font-color-2;
+               font-weight: $semi-bold;
+               letter-spacing: 1px;
+               padding: 0 10px;
+            }
+         }
+
+         &:hover {
+            cursor: pointer;
+            .earphone-link {
+               color: $btn-links;
+               transition: $transitions;
+            }
+         }
+      }
+
+   }
+}
