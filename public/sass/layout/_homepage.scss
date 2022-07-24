@@ -161,22 +161,71 @@
             margin: 3.2rem 0;
             text-align: left;
          }
+
+         .zx9-products {
+            background-color: $primary-color;
+            color: $secondary-color;
+         }
       }
    }
 }
 
 .zx7-speaker {
-   height: 320px;
+   margin-bottom: 5rem;
    .zx7-speaker-container {
-      height: 320px;
-      background-image: url('/img/home/desktop/image-speaker-zx7.jpg');
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      border-radius: 10px;
       position: relative;
       .zx7-speaker-products {
          position: absolute;
-         top: 10px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-content: center;
+         top: 43px;
+         left: 116px;
+         height: 66%;
+         padding-bottom: 20px;
+
+         .zx7-title {
+            text-transform: uppercase;
+            color: $primary-color;
+            font-weight: $semi-bold;
+            font-size: 3rem;
+            margin-bottom: 29px;
+         }
+         .zx7-products {
+            border: 1px solid black;
+         }
+      }
+
+      .zx7-image {
+         border-radius: 10px;
+      }
+
+   }
+}
+
+.yx1-earphones {
+   .yx1-earphones-container {
+      display: flex;
+      justify-content: space-between;
+      .yx1-image {
+         width: 50%;
+         img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;        
+         }
+      }
+      .yx1-products {
+         width: 48%;
+         height: auto;
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         align-items: center;
+         background-color: $category-cards;
+         border-radius: 10px;
+
       }
    }
 }

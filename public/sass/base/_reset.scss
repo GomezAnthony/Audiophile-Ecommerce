@@ -21,12 +21,12 @@ body {
    width: calc(min(95%, 111rem));
 }
 
-// img,
-// svg {
-//    max-width: 350px;
-//    display: block;
-//    width: 100%;
-// }
+img,
+svg {
+   max-width: 100%;
+   height: auto;
+ }
+
 
 a {
    text-decoration: none;
