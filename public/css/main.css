@@ -220,7 +220,7 @@ a {
 }
 
 .zx9-speaker {
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
 }
 .zx9-speaker .zx9-speaker-container {
   height: 560px;
@@ -276,20 +276,19 @@ a {
 }
 
 .zx7-speaker {
-  height: 400px;
+  height: 320px;
+}
+.zx7-speaker .zx7-speaker-container {
+  height: 320px;
   background-image: url("/img/home/desktop/image-speaker-zx7.jpg");
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   border-radius: 10px;
+  position: relative;
 }
 .zx7-speaker .zx7-speaker-container .zx7-speaker-products {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  width: 50%;
-  background-color: aquamarine;
-  height: 100%;
+  position: absolute;
+  top: 10px;
 }
 
 .navbar-content {
