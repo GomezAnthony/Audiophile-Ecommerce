@@ -205,6 +205,7 @@
 }
 
 .yx1-earphones {
+   margin-bottom: 5rem;
    .yx1-earphones-container {
       display: flex;
       justify-content: space-between;
@@ -216,7 +217,7 @@
             height: auto;        
          }
       }
-      .yx1-products {
+      .yx1-earphone-products {
          width: 48%;
          height: auto;
          display: flex;
@@ -226,6 +227,101 @@
          background-color: $category-cards;
          border-radius: 10px;
 
+         .yx1-title {
+            text-transform: uppercase;
+            color: $primary-color;
+            font-weight: $semi-bold;
+            font-size: 3rem;
+            margin-bottom: 29px;
+         }
+         .yx1-products {
+            border: 1px solid black;
+
+         }
+
       }
+   }
+}
+
+.products-info {
+   margin-bottom: 12rem;
+   .products-info-container {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      .product-info-left {
+         width: 48%;
+         img {
+            border-radius: 10px;
+         }
+      }
+      .product-info-right {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         width: 52%;
+         h2 {
+            font-size: 4rem;
+            padding-bottom: 4rem;
+         }
+         span {
+            color: $btn-links;
+            letter-spacing: 1.4304px;
+            font-weight: $bold;
+         }
+         p {
+            font-size: 15px;
+            font-weight: $regular-font;
+            line-height: 24.9px;
+            color: rgb(0, 0, 0, 0.5);
+            width: 86%;
+           
+         }
+      }
+   }
+}
+
+.audiophile-footer {
+   background-color: $primary-color;
+   .audiophile-footer-container {
+      display: flex;
+      justify-content: space-between;
+      height: 300px;
+
+      .audiophile-footer-left {
+        width: 50%;
+         .audiophile-footer-content {
+            p {
+            line-height: 1.66;
+            font-size: 1.5rem;
+            color: $font-color-1;
+            letter-spacing: 0.1rem;
+            font-weight: $extra-light-font;
+            opacity: .75;
+            width: 111%;
+            }
+         }
+      }
+      
+      .audiophile-info-right {
+         width: 50%;
+         .audiophile-footer-links {
+            .audiophile-links {
+              display: flex;
+              justify-content: space-around;
+
+               .link {
+                  color: $secondary-color;
+                  font-size: 1.4rem;
+                  text-transform: uppercase;
+                  letter-spacing: 1.75px;
+                  font-weight: $medium-font;
+                  opacity: .75;
+                  width: 110%;
+               }
+            }
+         }
+      }
+      
    }
 }
