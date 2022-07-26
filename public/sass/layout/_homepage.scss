@@ -1,5 +1,6 @@
 .product-categories {
    margin-bottom: 15rem;
+
    .product-categories-container {
       .headphones-category-card {
          .headphones-title {
@@ -8,7 +9,7 @@
             letter-spacing: 0.1rem;
             text-transform: uppercase;
          }
-   
+
          .headphone-links {
             display: flex;
             justify-content: space-between;
@@ -16,7 +17,7 @@
             align-items: center;
             padding: 1.9rem, 0;
             padding: 1.6rem 0rem;
-   
+
             .headphone-link {
                font-size: 1.4rem;
                text-transform: uppercase;
@@ -29,6 +30,7 @@
 
          &:hover {
             cursor: pointer;
+
             .headphone-link {
                transition: $transitions;
                color: $btn-links;
@@ -36,7 +38,7 @@
          }
 
       }
-      
+
       .speakers-category-card {
          .speakers-title {
             font-size: 1.8rem;
@@ -44,6 +46,7 @@
             letter-spacing: 0.1rem;
             text-transform: uppercase;
          }
+
          .speaker-links {
             display: flex;
             justify-content: space-between;
@@ -51,7 +54,7 @@
             align-items: center;
             padding: 1.9rem, 0;
             padding: 1.6rem 0rem;
-   
+
             .speaker-link {
                font-size: 1.4rem;
                text-transform: uppercase;
@@ -64,6 +67,7 @@
 
          &:hover {
             cursor: pointer;
+
             .speaker-link {
                color: $btn-links;
                transition: $transitions;
@@ -78,6 +82,7 @@
             letter-spacing: 0.1rem;
             text-transform: uppercase;
          }
+
          .earphone-links {
             display: flex;
             justify-content: space-between;
@@ -85,7 +90,7 @@
             align-items: center;
             padding: 1.9rem, 0;
             padding: 1.6rem 0rem;
-   
+
             .earphone-link {
                font-size: 1.4rem;
                text-transform: uppercase;
@@ -98,6 +103,7 @@
 
          &:hover {
             cursor: pointer;
+
             .earphone-link {
                color: $btn-links;
                transition: $transitions;
@@ -110,6 +116,7 @@
 
 .zx9-speaker {
    margin-bottom: 5rem;
+
    .zx9-speaker-container {
       height: 560px;
       background-color: $btn-links;
@@ -122,7 +129,8 @@
       background-position-y: -54px;
       display: flex;
       border-radius: 10px;
-      .zx9-speaker-left{
+
+      .zx9-speaker-left {
          background-image: url('/img/home/desktop/image-speaker-zx9.png');
          background-repeat: no-repeat;
          background-position: center;
@@ -133,7 +141,8 @@
          height: 100%;
          height: 100%;
       }
-      .zx9-speaker-right{
+
+      .zx9-speaker-right {
          width: 40%;
          height: 100%;
          text-align: center;
@@ -149,9 +158,10 @@
             text-transform: uppercase;
             letter-spacing: 0.1rem;
             font-weight: bold;
-            line-height: 56px; 
+            line-height: 56px;
             margin-bottom: 3rem;
          }
+
          .zx9-text {
             font-size: 1.5rem;
             font-weight: $extra-light-font;
@@ -172,8 +182,10 @@
 
 .zx7-speaker {
    margin-bottom: 5rem;
+
    .zx7-speaker-container {
       position: relative;
+
       .zx7-speaker-products {
          position: absolute;
          display: flex;
@@ -192,6 +204,7 @@
             font-size: 3rem;
             margin-bottom: 29px;
          }
+
          .zx7-products {
             border: 1px solid black;
          }
@@ -206,17 +219,21 @@
 
 .yx1-earphones {
    margin-bottom: 5rem;
+
    .yx1-earphones-container {
       display: flex;
       justify-content: space-between;
+
       .yx1-image {
          width: 50%;
+
          img {
             border-radius: 10px;
             width: 100%;
-            height: auto;        
+            height: auto;
          }
       }
+
       .yx1-earphone-products {
          width: 48%;
          height: auto;
@@ -234,6 +251,7 @@
             font-size: 3rem;
             margin-bottom: 29px;
          }
+
          .yx1-products {
             border: 1px solid black;
 
@@ -245,37 +263,44 @@
 
 .products-info {
    margin-bottom: 12rem;
+
    .products-info-container {
       display: flex;
       flex-direction: row-reverse;
       justify-content: space-between;
+
       .product-info-left {
          width: 48%;
+
          img {
             border-radius: 10px;
          }
       }
+
       .product-info-right {
          display: flex;
          flex-direction: column;
          justify-content: center;
          width: 52%;
+
          h2 {
             font-size: 4rem;
             padding-bottom: 4rem;
          }
+
          span {
             color: $btn-links;
             letter-spacing: 1.4304px;
             font-weight: $bold;
          }
+
          p {
             font-size: 15px;
             font-weight: $regular-font;
             line-height: 24.9px;
             color: rgb(0, 0, 0, 0.5);
             width: 86%;
-           
+
          }
       }
    }
@@ -283,32 +308,64 @@
 
 .audiophile-footer {
    background-color: $primary-color;
+   height: 24vh;
+
    .audiophile-footer-container {
       display: flex;
       justify-content: space-between;
       height: 300px;
 
       .audiophile-footer-left {
-        width: 50%;
+         width: 50%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+
+         .audiophile-footer-logo {
+            padding-top: 9rem;
+         }
+
          .audiophile-footer-content {
+            padding: 5rem 0;
+
             p {
-            line-height: 1.66;
-            font-size: 1.5rem;
-            color: $font-color-1;
-            letter-spacing: 0.1rem;
-            font-weight: $extra-light-font;
-            opacity: .75;
-            width: 111%;
+               line-height: 1.66;
+               font-size: 1.5rem;
+               color: $font-color-1;
+               letter-spacing: 0.1rem;
+               font-weight: $extra-light-font;
+               opacity: .75;
+               width: 111%;
+            }
+         }
+
+         .audiophile-footer-copyright {
+            p {
+               line-height: 1.66;
+               font-size: 1.5rem;
+               color: $font-color-1;
+               letter-spacing: 0.1rem;
+               font-weight: $extra-light-font;
+               opacity: .75;
+               width: 111%;
             }
          }
       }
-      
+
       .audiophile-info-right {
          width: 50%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+
          .audiophile-footer-links {
+            display: flex;
+            justify-content: end;
+            padding-bottom: 10rem;
+
             .audiophile-links {
-              display: flex;
-              justify-content: space-around;
+               display: flex;
+               justify-content: space-around;
 
                .link {
                   color: $secondary-color;
@@ -318,10 +375,35 @@
                   font-weight: $medium-font;
                   opacity: .75;
                   width: 110%;
+                  padding-left: 6rem;
+
+                  &:hover {
+                     cursor: pointer;
+                     color: $btn-links;
+                     transition: $transitions;
+                  }
                }
             }
          }
+
+         .audiophile-social-media-links {
+            display: flex;
+            justify-content: end;
+
+            .facebook {
+               padding-left: 3rem;
+            }
+
+            .twitter {
+               padding-left: 3rem;
+            }
+
+            .instagram {
+               padding-left: 3rem;
+            }
+
+         }
       }
-      
+
    }
 }

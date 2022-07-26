@@ -1,3 +1,14 @@
-.testing {
-   color: red;
+.hero-headphones {
+   background-color: $primary-color;
+   .hero-headphones-container {
+      text-align: center;
+      padding: 11rem 0;
+      .hero-headphones-header {
+         color: $secondary-color;
+         text-transform: uppercase;
+         font-size: 4rem;
+         font-weight: $bold;
+         letter-spacing: 1.4304px
+      }
+   }
 }

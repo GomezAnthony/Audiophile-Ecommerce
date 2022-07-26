@@ -20,48 +20,15 @@
          <div class="hero-image"></div>
       </div>
    </header>
-   <section class="product-categories">
-      <div class="product-categories-container container">
-         <div class="headphones-category-card card">
-            <img class="product-image" src="/img/shared/desktop/image-category-thumbnail-headphones.png" alt="Headphones Preview">
-            <h4 class="headphones-title">Headphones</h4>
-            <div class="headphone-links">
-               <a class="headphone-link" href="#">
-                  <p>Shop</p>
-               </a>
-               <img src="/img/shared/desktop/icon-arrow-right.svg" alt="Right Arrow">
-            </div>
-         </div>
-         <div class="speakers-category-card card">
-            <img class="product-image" src="/img/shared/desktop/image-category-thumbnail-speakers.png" alt="Speakers Preview">
-            <h4 class="speakers-title">Speakers</h4>
-            <div class="speaker-links">
-               <a class="speaker-link" href="#">
-                  <p>Shop</p>
-               </a>
-               <img src="/img/shared/desktop/icon-arrow-right.svg" alt="Right Arrow">
-            </div>
-
-         </div>
-         <div class="earphones-category-card card">
-            <img class="product-image" src="/img/shared/desktop/image-category-thumbnail-earphones.png" alt="Earphones Preview">
-            <h4 class="earphones-title">Earphones</h4>
-            <div class="earphone-links">
-               <a class="earphone-link" href="#">
-                  <p>Shop</p>
-               </a>
-               <img src="/img/shared/desktop/icon-arrow-right.svg" alt="Right Arrow">
-            </div>
-         </div>
-      </div>
-   </section>
+   <%- include('./partials/categories.ejs') %> 
    <section class="zx9-speaker">
       <div class="zx9-speaker-container container">
          <div class="zx9-speaker-left">
          </div>
          <div class="zx9-speaker-right">
             <h1 class="zx9-title">ZX9 Speaker</h1>
-            <p class="zx9-text">Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.</p>
+            <p class="zx9-text">Upgrade to premium speakers that are phenomenally built to deliver truly remarkable
+               sound.</p>
             <button class="zx9-products btn">See Product</button>
          </div>
       </div>
@@ -101,53 +68,7 @@
          </div>
       </div>
    </section>
-   <footer class="audiophile-footer">
-      <div class="audiophile-footer-container container">
-         <div class="audiophile-footer-left">
-            <div class="audiophile-footer-logo">
-               <a href="#"><img src="/img/shared/desktop/logo.svg" alt="Audiophile Logo"></a>
-            </div>
-            <div class="audiophile-footer-content">
-               <p>Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers
-                  and sound specialists who are devoted to helping you get the most out of personal audio. Come and
-                  visit our demo facility - we’re open 7 days a week.</p>
-            </div>
-            <div class="audiophile-footer-copyright">
-               <p>Copyright 2021. All Rights Reserved</p>
-            </div>
-         </div>
-         <div class="audiophile-info-right">
-            <div class="audiophile-footer-links">
-               <ul class="audiophile-links">
-                  <li class="links">
-                     <a class="link" href="#">Home</a>
-                  </li>
-                  <li class="links">
-                     <a class="link" href="#">Headphones</a>
-                  </li>
-                  <li class="links">
-                     <a class="link" href="#">Speakers</a>
-                  </li>
-                  <li class="links">
-                     <a class="link" href="#">Earphones</a>
-                  </li>
-               </ul>
-            </div>
-            <div class="audiophile-social-media-links">
-               <div class="facebook">
-                  <a href="#"><img src="img/shared/desktop/icon-facebook.svg" alt="Facebook"></a>
-               </div>
-               <div class="twitter">
-                  <a href="#"><img src="/img/shared/desktop/icon-twitter.svg" alt="Twitter"></a>
-               </div>
-               <div class="instagram">
-                  <a href="#"><img src="/img/shared/desktop/icon-instagram.svg" alt="Instagram"></a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </footer>
-
+   <%- include('./partials/footer.ejs') %>
 
 </body>
 

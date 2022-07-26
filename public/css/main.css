@@ -130,8 +130,19 @@ a {
   opacity: 1;
 }
 
-.testing {
-  color: red;
+.hero-headphones {
+  background-color: #191919;
+}
+.hero-headphones .hero-headphones-container {
+  text-align: center;
+  padding: 11rem 0;
+}
+.hero-headphones .hero-headphones-container .hero-headphones-header {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 1.4304px;
 }
 
 .product-categories {
@@ -391,6 +402,7 @@ a {
 
 .audiophile-footer {
   background-color: #191919;
+  height: 24vh;
 }
 .audiophile-footer .audiophile-footer-container {
   display: flex;
@@ -399,6 +411,15 @@ a {
 }
 .audiophile-footer .audiophile-footer-container .audiophile-footer-left {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.audiophile-footer .audiophile-footer-container .audiophile-footer-left .audiophile-footer-logo {
+  padding-top: 9rem;
+}
+.audiophile-footer .audiophile-footer-container .audiophile-footer-left .audiophile-footer-content {
+  padding: 5rem 0;
 }
 .audiophile-footer .audiophile-footer-container .audiophile-footer-left .audiophile-footer-content p {
   line-height: 1.66;
@@ -409,8 +430,25 @@ a {
   opacity: 0.75;
   width: 111%;
 }
+.audiophile-footer .audiophile-footer-container .audiophile-footer-left .audiophile-footer-copyright p {
+  line-height: 1.66;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+  opacity: 0.75;
+  width: 111%;
+}
 .audiophile-footer .audiophile-footer-container .audiophile-info-right {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.audiophile-footer .audiophile-footer-container .audiophile-info-right .audiophile-footer-links {
+  display: flex;
+  justify-content: end;
+  padding-bottom: 10rem;
 }
 .audiophile-footer .audiophile-footer-container .audiophile-info-right .audiophile-footer-links .audiophile-links {
   display: flex;
@@ -424,6 +462,25 @@ a {
   font-weight: 500;
   opacity: 0.75;
   width: 110%;
+  padding-left: 6rem;
+}
+.audiophile-footer .audiophile-footer-container .audiophile-info-right .audiophile-footer-links .audiophile-links .link:hover {
+  cursor: pointer;
+  color: #d87d4a;
+  transition: all 400ms ease;
+}
+.audiophile-footer .audiophile-footer-container .audiophile-info-right .audiophile-social-media-links {
+  display: flex;
+  justify-content: end;
+}
+.audiophile-footer .audiophile-footer-container .audiophile-info-right .audiophile-social-media-links .facebook {
+  padding-left: 3rem;
+}
+.audiophile-footer .audiophile-footer-container .audiophile-info-right .audiophile-social-media-links .twitter {
+  padding-left: 3rem;
+}
+.audiophile-footer .audiophile-footer-container .audiophile-info-right .audiophile-social-media-links .instagram {
+  padding-left: 3rem;
 }
 
 .navbar-content {
