@@ -402,12 +402,10 @@ a {
 
 .audiophile-footer {
   background-color: #191919;
-  height: 24vh;
 }
 .audiophile-footer .audiophile-footer-container {
   display: flex;
   justify-content: space-between;
-  height: 300px;
 }
 .audiophile-footer .audiophile-footer-container .audiophile-footer-left {
   width: 50%;

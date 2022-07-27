@@ -308,13 +308,9 @@
 
 .audiophile-footer {
    background-color: $primary-color;
-   height: 24vh;
-
    .audiophile-footer-container {
       display: flex;
       justify-content: space-between;
-      height: 300px;
-
       .audiophile-footer-left {
          width: 50%;
          display: flex;
