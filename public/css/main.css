@@ -193,6 +193,34 @@ a {
   background-color: #d87d4a;
   color: #fff;
 }
+.headphones .headphones-container .xx99-mark-I-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: baseline;
+  padding-left: 10rem;
+}
+.headphones .headphones-container .xx99-mark-I-info .xx99-mark-one-header {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  width: 22rem;
+  margin-bottom: 2.5rem;
+  line-height: 3.4rem;
+}
+.headphones .headphones-container .xx99-mark-I-info .xx99-mark-one-content {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.494);
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  margin-bottom: 2.5rem;
+}
+.headphones .headphones-container .xx99-mark-I-info .xx99-mark-one-button {
+  background-color: #d87d4a;
+  color: #fff;
+}
 
 .product-categories {
   margin-bottom: 15rem;
