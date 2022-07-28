@@ -53,7 +53,7 @@ a {
   height: 195px;
 }
 .product-categories-container .product-image {
-  height: 200px;
+  height: 182px;
 }
 
 .hero {
@@ -132,10 +132,11 @@ a {
 
 .hero-headphones {
   background-color: #191919;
+  margin-bottom: 6rem;
 }
 .hero-headphones .hero-headphones-container {
   text-align: center;
-  padding: 11rem 0;
+  padding: 9.5rem 0;
 }
 .hero-headphones .hero-headphones-container .hero-headphones-header {
   color: #fff;
@@ -143,6 +144,54 @@ a {
   font-size: 4rem;
   font-weight: 700;
   letter-spacing: 1.4304px;
+}
+
+.headphones .headphones-container {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  grid-template-rows: repeat(3, 60%);
+  grid-gap: 100px 20px;
+  justify-content: center;
+  width: 95%;
+}
+.headphones .headphones-container img {
+  border-radius: 10px;
+}
+.headphones .headphones-container .xx99-mark-II-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: baseline;
+  padding-left: 10rem;
+}
+.headphones .headphones-container .xx99-mark-II-info .xx99-mark-two-products {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  color: #d87d4a;
+  font-weight: 300;
+  margin-bottom: 1.8rem;
+}
+.headphones .headphones-container .xx99-mark-II-info .xx99-mark-two-header {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  width: 22rem;
+  margin-bottom: 2.5rem;
+  line-height: 3.4rem;
+}
+.headphones .headphones-container .xx99-mark-II-info .xx99-mark-two-content {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.494);
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  margin-bottom: 2.5rem;
+}
+.headphones .headphones-container .xx99-mark-II-info .xx99-mark-two-button {
+  background-color: #d87d4a;
+  color: #fff;
 }
 
 .product-categories {
