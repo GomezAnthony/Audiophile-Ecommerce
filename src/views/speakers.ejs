@@ -7,6 +7,36 @@
    <%- include('./partials/head.ejs') %>
    <body> 
       <%- include('./partials/nav.ejs')  %> 
-      <h1>Speakers</h1>
+      <header class="hero-speakers">
+         <div class="hero-speakers-container container">
+            <h1 class="hero-speakers-header">Speakers</h1>
+         </div>
+      </header>
+      <section class="speakers">
+         <div class="speakers-container container cards">
+            <div class="zx9-speaker-image">
+               <img src="/img/product-zx9-speaker/desktop/image-category-page-preview.jpg" alt="ZX9 Speaker">
+            </div>
+            <div class="zx9-speaker-info">
+               <h4 class="zx9-speaker-products">New Product</h4>
+               <h1 class="zx9-content-header">ZX9 Speaker</h1>
+               <p class="zx9-speaker-content">Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.</p>
+               <button class="zx9-speaker-button btn">See Product</button>
+            </div>
+            <div class="zx7-speaker-info">
+               <h1 class="zx7-speaker-header">ZX7 Speaker</h1>
+               <p class="zx7-speaker-content">Stream high quality sound wirelessly with minimal to no loss. The ZX7 speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.</p>
+               <button class="zx7-speaker-button btn">See Product</button>
+            </div>
+            <div class="zx7-speaker-image">
+               <img src="/img/product-zx7-speaker/desktop/image-category-page-preview.jpg" alt="ZX7 Speaker">
+            </div>
+         </div>
+      </section>
+      <%- include('./partials/categories.ejs') %>
+      <%- include('./partials/info.ejs') %>
+      <!-- <button><a href="/headphones/xx99-mark-two-headphones">See Product</a></button>
+      <button><a href="/headphones/xx99-mark-one-headphones">See Product</a></button>  -->
+      <%- include('./partials/footer.ejs')  %> 
    </body>
 </html>

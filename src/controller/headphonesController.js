@@ -1,4 +1,3 @@
-
 const headphone_index = (req, res) => {
    res.render('headphones', {title: 'Headphones'})
 }

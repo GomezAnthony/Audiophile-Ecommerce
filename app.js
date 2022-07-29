@@ -1,7 +1,8 @@
 const express = require('express')
 const morgan = require('morgan');
 const headphoneRoutes = require('./src/routes/headphoneRoutes')
-
+const speakerRoutes = require('./src/routes/speakerRoutes')
+const earphoneController = require('./src/routes/earphoneRoutes')
 const app = express()
 
 // Static Files and Middleware
@@ -21,13 +22,8 @@ app.get('/', (req, res) => {
 })
 
 app.use('/headphones', headphoneRoutes);
+app.use('/speakers', speakerRoutes);
+app.use('/earphones', earphoneController);
 
-app.get('/speakers', (req, res) => {
-   res.render('speakers')
-})
-
-app.get('/earphones', (req, res) => {
-   res.render('earphones')
-})
 
 module.exports = app;

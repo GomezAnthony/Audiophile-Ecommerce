@@ -1,10 +1,10 @@
-.hero-headphones {
+.hero-speakers {
    background-color: $primary-color;
    margin-bottom: 6rem;
-   .hero-headphones-container {
+   .hero-speakers-container {
       text-align: center;
       padding: 9.5rem 0;
-      .hero-headphones-header {
+      .hero-speakers-header {
          color: $secondary-color;
          text-transform: uppercase;
          font-size: 4rem;
@@ -13,9 +13,9 @@
       }
    }
 }
-.headphones {
-   margin-bottom: 20rem;
-   .headphones-container {
+.speakers {
+   margin-bottom: 10rem;
+   .speakers-container {
       display: grid;
       grid-template-columns: repeat(2, 40%);
       grid-template-rows: repeat(3, 60%);
@@ -25,7 +25,7 @@
       img {
          border-radius: 10px;
       }
-      .xx99-mark-II-info {
+      .zx9-speaker-info {
          display: flex;
          flex-direction: column;
          justify-content: center;
@@ -33,7 +33,7 @@
          align-items: baseline;
          padding-left: 10rem;
 
-         .xx99-mark-two-products {
+         .zx9-speaker-products {
             font-size: 1.4rem;
             text-transform: uppercase;
             letter-spacing: 1rem;
@@ -41,7 +41,7 @@
             font-weight: $light-font;
             margin-bottom: 1.8rem
          }
-         .xx99-mark-two-header {
+         .zx9-content-header {
             font-size: 2.8rem;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -50,26 +50,26 @@
             margin-bottom: 2.5rem;
             line-height: 3.4rem;
          }
-         .xx99-mark-two-content {
+         .zx9-speaker-content {
             width: 100%;
             color: $font-color-2;
             font-size: 1.5rem;
             line-height: 2.4rem;
             margin-bottom: 2.5rem
          }
-         .xx99-mark-two-button {
+         .zx9-speaker-button {
             background-color: $btn-links;
             color: $secondary-color;
          }
       }
-      .xx99-mark-I-info {
+      .zx7-speaker-info {
          display: flex;
          flex-direction: column;
          justify-content: center;
          align-content: center;
          align-items: baseline;
          padding-right: 10rem;
-         .xx99-mark-one-header {
+         .zx7-speaker-header {
             font-size: 2.8rem;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -78,43 +78,14 @@
             margin-bottom: 2.5rem;
             line-height: 3.4rem;
          }
-         .xx99-mark-one-content {
+         .zx7-speaker-content {
             width: 100%;
             color: $font-color-2;
             font-size: 1.5rem;
             line-height: 2.4rem;
             margin-bottom: 2.5rem
          }
-         .xx99-mark-one-button {
-            background-color: $btn-links;
-            color: $secondary-color;
-         }
-      }
-
-      .xx59-info {
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         align-content: center;
-         align-items: baseline;
-         padding-left: 10rem;
-         .xx59-header {
-            font-size: 2.8rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: $semi-bold;
-            width: 22rem;
-            margin-bottom: 2.5rem;
-            line-height: 3.4rem;
-         }
-         .xx59-content {
-            width: 100%;
-            color: $font-color-2;
-            font-size: 1.5rem;
-            line-height: 2.4rem;
-            margin-bottom: 2.5rem
-         }
-         .xx59-button {
+         .zx7-speaker-button {
             background-color: $btn-links;
             color: $secondary-color;
          }
