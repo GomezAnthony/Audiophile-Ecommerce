@@ -39,7 +39,9 @@ a {
 }
 
 .product-categories-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  grid-gap: 100px 0px;
   justify-content: space-between;
 }
 .product-categories-container .card {
@@ -49,7 +51,6 @@ a {
   justify-content: end;
   align-items: center;
   border-radius: 10px;
-  width: 350px;
   height: 195px;
 }
 .product-categories-container .product-image {
@@ -74,11 +75,10 @@ a {
 
 .earphones .earphones-container {
   display: grid;
-  grid-template-columns: repeat(2, 40%);
+  grid-template-columns: repeat(2, 49%);
   grid-template-rows: repeat(3, 60%);
   grid-gap: 100px 20px;
-  justify-content: center;
-  width: 95%;
+  justify-content: space-between;
 }
 .earphones .earphones-container img {
   border-radius: 10px;
@@ -215,11 +215,10 @@ a {
 }
 .headphones .headphones-container {
   display: grid;
-  grid-template-columns: repeat(2, 40%);
+  grid-template-columns: repeat(2, 49%);
   grid-template-rows: repeat(3, 60%);
   grid-gap: 100px 20px;
-  justify-content: center;
-  width: 95%;
+  justify-content: space-between;
 }
 .headphones .headphones-container img {
   border-radius: 10px;
@@ -278,7 +277,7 @@ a {
   line-height: 3.4rem;
 }
 .headphones .headphones-container .xx99-mark-I-info .xx99-mark-one-content {
-  width: 100%;
+  width: 104%;
   color: rgba(0, 0, 0, 0.494);
   font-size: 1.5rem;
   line-height: 2.4rem;
@@ -709,11 +708,10 @@ a {
 }
 .speakers .speakers-container {
   display: grid;
-  grid-template-columns: repeat(2, 40%);
+  grid-template-columns: repeat(2, 49%);
   grid-template-rows: repeat(3, 60%);
   grid-gap: 100px 20px;
-  justify-content: center;
-  width: 95%;
+  justify-content: space-between;
 }
 .speakers .speakers-container img {
   border-radius: 10px;
@@ -744,7 +742,7 @@ a {
   line-height: 3.4rem;
 }
 .speakers .speakers-container .zx9-speaker-info .zx9-speaker-content {
-  width: 100%;
+  width: 104%;
   color: rgba(0, 0, 0, 0.494);
   font-size: 1.5rem;
   line-height: 2.4rem;

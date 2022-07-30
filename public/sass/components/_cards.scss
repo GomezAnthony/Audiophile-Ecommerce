@@ -1,6 +1,9 @@
 .product-categories-container {
-   display: flex;
+   display: grid;
+   grid-template-columns: repeat(3, 32%);
+   grid-gap: 100px 0px;
    justify-content: space-between;
+  
    
    .card {
       background-color: $category-cards;
@@ -9,7 +12,6 @@
       justify-content: end;
       align-items: center;
       border-radius: 10px;
-      width: 350px;
       height: 195px;
      
    }

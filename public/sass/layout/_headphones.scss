@@ -17,13 +17,13 @@
    margin-bottom: 20rem;
    .headphones-container {
       display: grid;
-      grid-template-columns: repeat(2, 40%);
+      grid-template-columns: repeat(2, 49%);
       grid-template-rows: repeat(3, 60%);
       grid-gap: 100px 20px;
-      justify-content: center;
-      width: 95%;
+      justify-content: space-between;
       img {
          border-radius: 10px;
+      
       }
       .xx99-mark-II-info {
          display: flex;
@@ -79,7 +79,7 @@
             line-height: 3.4rem;
          }
          .xx99-mark-one-content {
-            width: 100%;
+            width: 104%;
             color: $font-color-2;
             font-size: 1.5rem;
             line-height: 2.4rem;

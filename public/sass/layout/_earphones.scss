@@ -16,13 +16,13 @@
 .earphones {
    .earphones-container {
       display: grid;
-      grid-template-columns: repeat(2, 40%);
+      grid-template-columns: repeat(2, 49%);
       grid-template-rows: repeat(3, 60%);
       grid-gap: 100px 20px;
-      justify-content: center;
-      width: 95%;
+      justify-content: space-between;
       img {
          border-radius: 10px;
+
       }
       .yx1-earphones-info {
          display: flex;
