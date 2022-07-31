@@ -7,6 +7,7 @@ const app = express()
 
 // Static Files and Middleware
 app.use(express.static('public'))
+app.use(express.json())
 app.use('/css', express.static(__dirname + 'public/css'))
 app.use('/img', express.static(__dirname + 'public/img'))
 app.use('/js', express.static(__dirname + 'public/js'))
