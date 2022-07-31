@@ -2,9 +2,9 @@ const request = require('supertest')
 const app = require('../../app');
 
 describe("Test the root path", () => {
-  test("It should response the GET method", done => {
+  test("It should get the title", done => {
     request(app)
-      .get("/speakers")
+      .get("/")
       .then(response => {
         expect(response.statusCode).toBe(200);
         done();

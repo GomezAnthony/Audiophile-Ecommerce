@@ -259,6 +259,10 @@ a {
   background-color: #d87d4a;
   color: #fff;
 }
+.headphones .headphones-container .xx99-mark-II-info .xx99-mark-two-button:hover {
+  background-color: #d38c63;
+  cursor: pointer;
+}
 .headphones .headphones-container .xx99-mark-I-info {
   display: flex;
   flex-direction: column;
@@ -287,6 +291,10 @@ a {
   background-color: #d87d4a;
   color: #fff;
 }
+.headphones .headphones-container .xx99-mark-I-info .xx99-mark-one-button:hover {
+  background-color: #d38c63;
+  cursor: pointer;
+}
 .headphones .headphones-container .xx59-info {
   display: flex;
   flex-direction: column;
@@ -314,6 +322,10 @@ a {
 .headphones .headphones-container .xx59-info .xx59-button {
   background-color: #d87d4a;
   color: #fff;
+}
+.headphones .headphones-container .xx59-info .xx59-button:hover {
+  background-color: #d38c63;
+  cursor: pointer;
 }
 
 .product-categories {

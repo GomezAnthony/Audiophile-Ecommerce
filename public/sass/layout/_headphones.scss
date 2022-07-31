@@ -60,6 +60,10 @@
          .xx99-mark-two-button {
             background-color: $btn-links;
             color: $secondary-color;
+            &:hover {
+               background-color: $btn-links-hover;
+               cursor: pointer;
+            }
          }
       }
       .xx99-mark-I-info {
@@ -88,6 +92,10 @@
          .xx99-mark-one-button {
             background-color: $btn-links;
             color: $secondary-color;
+            &:hover {
+               background-color: $btn-links-hover;
+               cursor: pointer;
+            }
          }
       }
 
@@ -117,6 +125,10 @@
          .xx59-button {
             background-color: $btn-links;
             color: $secondary-color;
+            &:hover {
+               background-color: $btn-links-hover;
+               cursor: pointer;
+            }
          }
       }
    }
