@@ -1,4 +1,3 @@
-import { useState } from "react";
 import hamburger from '../../assets/bars-solid.svg'
 import logo from '../../assets/logo.svg'
 import cart from '../../assets/icon-cart.svg'
