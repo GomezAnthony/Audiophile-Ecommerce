@@ -14,7 +14,8 @@ module.exports = {
         'p-color': '#101010',
         'o-color': '#D87D4A',
         'g-color': '#F1F1F1',
-        'w-color': '#FAFAFA'
+        'w-color': '#FAFAFA',
+        't-color': 'rgba(255, 255, 255, 0.5)',
       },
       fontFamily: {
         Manrope: ['Manrope', 'sans-serif']
