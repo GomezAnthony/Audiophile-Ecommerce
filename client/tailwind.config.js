@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'mobile': "url('../src/assets/desktop-image-hero.jpg')"
+        'mobile': "url('../src/assets/mobile-image-hero.jpg')",
+        'tablet': "url('../src/assets/tablet-image-hero.jpg')",
+        'desktop': "url('../src/assets/desktop-image-hero.jpg')"
       },
       colors: {
         'p-color': '#101010',
