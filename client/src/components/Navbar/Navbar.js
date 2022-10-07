@@ -6,7 +6,7 @@ const Navbar = () => {
  
   return (
     <div className="bg-p-color">
-      <nav className="container mx-auto flex justify-between content-center items-center h-[110px] px-3">
+      <nav className="container mx-auto w-[90%] flex justify-between content-center items-center h-[110px] px-3">
       <img className="cursor-pointer h-8 lg:hidden" src={hamburger} alt='Hamburger Menu' />
       <img className="h-8 md:px-20 lg:px-10" src={logo} alt='Logo'/>
         <ul className='hidden text-w-color lg:flex justify-between w-70 m-auto sm:hidden'>
