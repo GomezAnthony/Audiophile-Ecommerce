@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Categories = () => {
   return (
     <div>
-      <div className="flex flex-col justify-between h-[800px]">
+      <div className="flex flex-col justify-between h-[760px] mb-40">
         <div className="bg-g-color h-[200px] w-[90%] container mx-auto relative">
           <div className="absolute bottom-6 flex flex-col items-center mx-auto container">
             <img className="w-48" src={headphones} alt="Headphones Category" />
