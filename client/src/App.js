@@ -10,6 +10,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Categories />
+      
     </div>
   );
 };
