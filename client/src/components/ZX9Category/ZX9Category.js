@@ -1,8 +1,8 @@
 import zx9 from '../../assets/image-speaker-zx9.png'
 const ZX9Category = () => {
   return (
-    <div>
-      <div className="bg-o-color h-[650px] w-[90%] max-w-[1100px] container mx-auto rounded-[10px] ">
+    <div className='py-7'>
+      <div className="bg-o-color h-[650px] w-[90%] max-w-[1100px] container mx-auto rounded-lg">
         <div className="bg-[url('../src/assets/pattern-circles.svg')] h-[100%] bg-center bg-cover bg-no-repeat flex flex-col items-center justify-around  p-6">
           <img className='w-44' src={zx9} />
           <h1 className='text-w-color uppercase text-5xl w-72 font-normal text-center'>ZX9 Speaker</h1>

@@ -4,6 +4,8 @@ import earphones from "../../assets/category-earphones.png"
 import { MdNavigateNext } from "react-icons/md";
 import { Link } from "react-router-dom";
 import ZX9Category from "../ZX9Category/ZX9Category";
+import ZX7Category from "../XZ7Speaker/ZX7Category";
+import YX1Category from "../YX1Category/YX1Category";
 const Categories = () => {
   return (
     <div>
@@ -43,6 +45,8 @@ const Categories = () => {
         </div>
       </div>
       <ZX9Category />
+      <ZX7Category />
+      <YX1Category />
     </div>
   );
 };

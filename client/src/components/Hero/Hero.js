@@ -7,7 +7,7 @@ const Hero = () => {
                     <div className="py-40 text-center flex flex-col max-w-md mx-auto">
                         <h1 className="py-3 text-[1rem] uppercase text-t-color font-extralight tracking-[0.50rem]">New Products</h1>
                         <h1 className="py-4 text-w-color text-5xl uppercase font-semibold">X99 Mark II Headphones</h1>
-                        <p className="py-5 leading-[2] text-t-color mx-w-[300px] font-light uppercase">Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</p>
+                        <p className="py-5 text-xs leading-6 text-t-color mx-w-[300px] w-[80%] text-center mx-auto font-light uppercase">Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</p>
                         <button className="bg-o-color hover:bg-orange-200 tr text-w-color w-[200px] h-[60px] mx-auto">SEE PRODUCT</button>
                     </div>
                 </div>
