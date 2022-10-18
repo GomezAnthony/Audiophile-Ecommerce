@@ -1,7 +1,9 @@
+import Navbar from '../components/Navbar/Navbar'
 const Earphones = () => {
+
     return ( 
         <div>
-            Earphones
+            <Navbar />
         </div>
      );
 }
