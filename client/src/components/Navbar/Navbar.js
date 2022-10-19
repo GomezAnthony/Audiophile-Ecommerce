@@ -66,9 +66,9 @@ const Navbar = () => {
               <h2 className="uppercase text-lg text-p-color font-semibold tracking-widest mb-2">
                 SPEAKERS
               </h2>
-              {/* <Link to='/speakers' className="flex justify-center items-center text-gray-500">
+              <Link to='speakers' className="flex justify-center items-center text-gray-500">
                 SHOP <MdNavigateNext className="text-orange-500 text-2xl" />
-              </Link> */}
+              </Link>
             </div>
           </div>
           <div className="bg-g-color h-[200px] w-[90%] container mx-auto relative">
@@ -77,9 +77,9 @@ const Navbar = () => {
               <h2 className="uppercase text-lg text-p-color font-semibold tracking-widest mb-2">
                 Earphones
               </h2>
-              {/* <Link to='/earphones' className="flex justify-center items-center text-gray-500">
+              <Link to='earphones' className="flex justify-center items-center text-gray-500">
                 SHOP <MdNavigateNext className="text-orange-500 text-2xl" />
-              </Link> */}
+              </Link>
             </div>
           </div>
         </div>

@@ -10,38 +10,38 @@ import ProductAd from "../ProductAd/ProductAd";
 const Categories = () => {
   return (
     <div className="my-[100px]">
-      <div className="flex flex-col justify-between h-[760px] mb-40">
+      <div className="flex flex-col justify-between h-[760px] mb-40 md:flex md:flex-row md:w-[90%] md:mx-auto md:h-[100px]">
         <div className="bg-g-color h-[200px] w-[90%] container mx-auto rounded-md relative">
           <div className="absolute bottom-6 flex flex-col items-center mx-auto container">
             <img className="w-48" src={headphones} alt="Headphones Category" />
             <h2 className="uppercase text-lg text-p-color font-semibold tracking-widest mb-2">
               Heaphones
             </h2>
-            {/* <Link className="flex justify-center items-center text-gray-500">
+            <Link to='headphones' className="flex justify-center items-center text-gray-500">
               SHOP <MdNavigateNext className="text-orange-500 text-2xl" />
-            </Link> */}
+            </Link>
           </div>
         </div>
-        <div className="bg-g-color h-[200px] w-[90%] container rounded-md mx-auto relative">
+        <div className="bg-g-color h-[200px] w-[90%] container rounded-md mx-auto relative md:mx-5">
           <div className="absolute bottom-6 flex flex-col items-center mx-auto container">
             <img className="w-48" src={speakers} alt="Headphones Category" />
             <h2 className="uppercase text-lg text-p-color font-semibold tracking-widest mb-2">
-              Heaphones
+              Speakers
             </h2>
-            {/* <Link className="flex justify-center items-center text-gray-500">
+            <Link to='speakers' className="flex justify-center items-center text-gray-500">
               SHOP <MdNavigateNext className="text-orange-500 text-2xl" />
-            </Link> */}
+            </Link>
           </div>
         </div>
         <div className="bg-g-color h-[200px] w-[90%] container rounded-md mx-auto relative">
           <div className="absolute bottom-6 flex flex-col items-center mx-auto container">
             <img className="w-48" src={earphones} alt="Headphones Category" />
             <h2 className="uppercase text-lg text-p-color font-semibold tracking-widest mb-2">
-              Heaphones
+              Earphones
             </h2>
-            {/* <Link className="flex justify-center items-center text-gray-500">
+            <Link to='Earphones' className="flex justify-center items-center text-gray-500">
               SHOP <MdNavigateNext className="text-orange-500 text-2xl" />
-            </Link> */}
+            </Link>
           </div>
         </div>
       </div>
