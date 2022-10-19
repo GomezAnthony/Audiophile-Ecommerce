@@ -1,7 +1,7 @@
-const Headphones = () => {
+const Headphones = ({data}) => {
     return ( 
         <div>
-            Headphones
+            <h1 className="text-p-color">{data[0].slug}</h1>
         </div>
      );
 }
