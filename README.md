@@ -16,7 +16,7 @@ This challenge really dives deep into how modern web applactions are built and a
 - Npm Install
 - Run Npm Start
 - Also npn run server (This will fetch the data from the mock JSON Server using axios)
-- That is it!
+- That's it!
 
 ## Need to do
 - I need to implement the product pages for each category
