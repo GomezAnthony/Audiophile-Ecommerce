@@ -19,10 +19,10 @@ This challenge really dives deep into how modern web applactions are built and a
 - That's it!
 
 ## Need to do
-- I need to implement the product pages for each category
-- I also need to implement a cart modal 
+- I need to implement the product pages for each category.
+- I also need to implement a cart modal. 
 - Implement the logic for when a user selects and item and its then transfered to the cart page.
-- Implement LocalStorage
+- Implement LocalStorage.
 
 ## Current state of the application
 https://user-images.githubusercontent.com/56603329/196789493-02fe5b16-72d9-4e91-9836-701aa7fe27ba.mov
